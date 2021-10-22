@@ -28,4 +28,10 @@
 
 请在小程序首页进行反馈或联系维护客服，也可发送邮件到contact@rinfair.moe提供建议及反馈bug。
 
+## 想要参与代码贡献及维护？
+
+当然可以！该项目使用公共仓库，如果想要贡献源代码或自己尝试修复系统bug只需fork/clone这个项目到本地仓库，提交代码后pull request即可，代码在通过检查后会立刻被merge进master分支
+
+如果你有意向要参与系统的数据库、云函数维护，请发送邮件到contact@rinfair.moe，管理人员将在7天内对你的申请作出答复。
+
 [航概校园邦]: https://github.com/Fewing/buaa_takeaway
