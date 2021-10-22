@@ -1,0 +1,9 @@
+/* miniprogram/pages/regist/regist.wxss */
+@import '../../style/weui.wxss';
+.uploadimage{
+  margin: 0rpx;
+  display: flex;
+  vertical-align: middle;
+  height: 400rpx;
+  justify-content: center
+}

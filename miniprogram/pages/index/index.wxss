@@ -1,0 +1,19 @@
+/**index.wxss**/
+@import '../../style/weui.wxss';
+page 
+{
+  background: #f6f6f6;
+  display: block;
+}
+.question_card
+{
+  padding: 5px;
+}
+.head
+{
+  display: flex;
+  width: 100%;
+  background-color: #2d8cf0;
+  color: #ffffff;
+  padding:10rpx;
+}

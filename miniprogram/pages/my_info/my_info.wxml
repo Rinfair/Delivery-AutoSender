@@ -1,0 +1,55 @@
+<!--miniprogram/pages/my_info/my_info.wxml-->
+<view class="head">
+  <open-data type="userAvatarUrl" id="userinfo"></open-data>
+  <open-data type="userNickName" id="userNickName"></open-data>
+</view>
+<view style="height:30rpx"></view>
+<i-card title="个人信息" extra="" class="" thumb="../../my_info/info.svg">
+  <view slot="content" class="express_content">
+    <i-row class="">
+      <i-col span="8">
+        <view class="list_cell">
+          <wux-icon type="md-school" size="20" color="#80848f" style="padding-right:15rpx" />当前校区</view>
+      </i-col>
+      <i-col span="16" offset="0">
+        <view class="list_cell">{{campus[index]}}</view>
+      </i-col>
+    </i-row>
+    <i-row>
+      <i-col span="8">
+        <view class="list_cell">
+          <wux-icon type="md-call" size="20" color="#80848f" style="padding-right:15rpx" />联系电话</view>
+      </i-col>
+      <i-col span="16" offset="0">
+        <view class="list_cell">{{phone}}</view>
+      </i-col>
+    </i-row>
+    <i-row>
+      <i-col span="8">
+        <view class="list_cell">
+          <wux-icon type="md-pin" size="20" color="#80848f" style="padding-right:15rpx" />送货地址</view>
+      </i-col>
+      <i-col span="16" offset="0">
+        <view class="list_cell">{{deliver_address}}</view>
+      </i-col>
+    </i-row>
+  </view>
+  <view slot="footer">
+    <i-button bindtap="to_modify_info" type="info">修改</i-button>
+  </view>
+</i-card>
+<view style="height:30rpx"></view>
+<i-card title="足迹">
+  <view slot="content">
+    <i-row>
+      <i-col span="24">
+        <text class="card_text">你在南审跑腿通</text>
+      </i-col>
+    </i-row>
+    <i-row>
+      <i-col span="24">
+        <text class="card_text">已完成</text><text class="" style="color:#2d8cf0 ;font-size:30px">{{count}}</text><text class="card_text">次订单！</text>
+      </i-col>
+    </i-row>
+  </view>
+</i-card>

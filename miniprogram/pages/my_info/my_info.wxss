@@ -1,0 +1,41 @@
+/* miniprogram/pages/my_info/my_info.wxss */
+@import '../../style/weui.wxss';
+
+page {
+  background: #f6f6f6;
+  display: block;
+}
+
+.list_cell {
+  font-size: 16px;
+  padding-bottom: 5px;
+  display: flex;
+}
+
+#userinfo {
+  width: 185rpx;
+  height: 185rpx;
+  border-radius: 50%;
+  display: flex;
+  overflow: hidden;
+  text-align: center;
+}
+
+#userNickName {
+  text-align: center;
+}
+
+.head {
+  padding-top: 30rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 50rpx;
+  background: #5cadff;
+}
+.card_text
+{
+  font-size: 20px;
+}
