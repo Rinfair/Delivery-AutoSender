@@ -1,4 +1,6 @@
 # 南京审计大学跑腿派/接单系统——南审跑腿通
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FRinfair-CSP-A016%2FDelivery-AutoSender.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FRinfair-CSP-A016%2FDelivery-AutoSender?ref=badge_shield)
+
 
 ## 简介
 
@@ -35,3 +37,7 @@
 如果你有意向要参与系统的数据库、云函数维护，请发送邮件到contact@rinfair.moe，管理人员将在7天内对你的申请作出答复。
 
 [航概校园邦]: https://github.com/Fewing/buaa_takeaway
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FRinfair-CSP-A016%2FDelivery-AutoSender.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FRinfair-CSP-A016%2FDelivery-AutoSender?ref=badge_large)
